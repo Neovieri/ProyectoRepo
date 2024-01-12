@@ -93,22 +93,22 @@
 
             <div class="servicio1">
                 <i class="fa-sharp fa-solid fa-hospital-user"></i>
-                <h3>Pediatría</h3>
+                <h3>Dietética</h3>
             </div>
 
             <div class="servicio1">
                 <i class="fa-sharp fa-solid fa-stethoscope"></i>
-                <h3>ginecología</h3>
+                <h3>Revisiones</h3>
             </div>
 
             <div class="servicio1">
                 <i class="fa-solid fa-bed-pulse"></i>
-                <h3>Dermatología</h3>
+                <h3>Radiología</h3>
             </div>
 
             <div class="servicio1">
                 <i class="fa-solid fa-hospital"></i>
-                <h3>Cardiología</h3>
+                <h3>Cirugía</h3>
             </div>
 
         </div>
@@ -124,13 +124,13 @@
             <div class="input-group">
 
                 <div class="input-contenedor">
-                    <input type="text" name="nombre" placeholder="Nombre y Apellidos">
+                    <input type="text" name="name" placeholder="Nombre y Apellidos">
 
                     <i class="fa-solid fa-user"></i>
                 </div>
 
                 <div class="input-contenedor">
-                    <input type="tel" name="telefono" placeholder="Telefono móvil">
+                    <input type="tel" name="phone" placeholder="Telefono móvil">
 
                     <i class="fa-solid fa-phone"></i>
                 </div>
@@ -142,7 +142,7 @@
                 </div>
 
                 <div class="input-contenedor">
-                    <textarea name="Mensaje" placeholder="Detalles de la consulta"></textarea>
+                    <textarea name="message" placeholder="Detalles de la consulta"></textarea>
                 </div>
 
                 <input type="submit" name="send" class="btn" onclick="myFunction()">
@@ -155,7 +155,7 @@
 
     <div id="whatsapp">
     
-        <a href class="fa-brands fa-whatsapp" style="color: #2bd016;"></a>
+        <a href="https://wa.me/1234567890" target="_blank" class="fa-brands fa-whatsapp" style="color: #2bd016;"></a>
         
     </div>
 
@@ -185,6 +185,7 @@
     </footer>
 
     <?php
+    
         include("send.php");
     ?>
 
